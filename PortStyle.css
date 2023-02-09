@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    padding: 40px;
+    background-color:  rgb(221, 219, 220);
+    width: 50vw;
+   font-family: 'Ubuntu', sans-serif;
+    /*height: 20vh;*/
+    
+}
+.sidebar nav{
+    color: aliceblue;
+    padding: 0px;
+}
+.sidebar nav li{
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    padding: 15px ;
+}
+
+.main{
+    background-color:  rgb(237, 238, 235);
+    color: rgb(0, 5, 10);
+    width: 70vw;
+    font-size: 45px;
+    padding: 40px ;
+}
+.container{
+    display: flex;
+    height: 100px; 
+}
+.infoContainer {
+    background-color: rgb(213, 201, 179);
+    height: 70vh;
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 8%;
+    flex-direction: column;
+    
+    position: relative;
+   
+    animation-name: example;
+    animation-duration: 4s;
+}
+.devPic img{
+    height: 456px;
+   
+}
+.button button{
+    transition-duration: 0.4s;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: rgb(213, 222, 115);
+    border: 1mm solid  #9f0b73;
+}
+.button button:hover {
+    background-color: #9f0b73; 
+    color: white;
+  }
+  .introCont{
+    background-color: rgb(181, 162, 127);
+    height: 50vh;
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    
+  justify-content: space-between;
+    justify-content: space-around;
+  }
+  .para{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    width: 60vw;
+    margin-top: 2%;
+    flex-direction: column;
+  }
+  .intro{
+    display: flex;
+    text-decoration-line:underline;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 30px;
+    width: 40vw;
+    margin-left: 10%;
+    margin-top: 2%;
+    flex-direction: column;
+  }
+  .endCont{
+    
+    background-color: rgb(158, 135, 91);
+    height: 20vh;
+    width: 100vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-around;
+  }
+  .endCont nav{
+    margin-top: 4%;
+    padding: 0px;
+  }
+  .endCont nav li{
+    display: inline;
+    list-style: none;
+    font-size: 25px;
+    padding: 15px ;
+}
+.space{
+
+    background-color: rgb(4, 4, 4);
+    height: 5vh;
+    width: 100vw;
+
+}

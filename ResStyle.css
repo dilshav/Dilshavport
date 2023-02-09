@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.res {
+    background-color: rgb(213, 201, 179);
+    height: 160vh;
+    width: 100vw;
+    margin-left: 0vw;
+    
+}
+.name{
+    text-align: justify; /* For Edge */
+    text-align-last:center;
+    font-size: 25px;
+    text-decoration: solid; 
+    text-decoration: underline;
+}
+.det{
+    text-align: justify; /* For Edge */
+    text-align-last:left;
+    margin-left: 20vw;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: solid;
+}
